@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     title: "DevSnippet – Developer Snippet Manager",
     description: "Save and organize code snippets from any website instantly.",
   },
+};
+
+export const viewport: Viewport = {
   themeColor: "#1e1e2e",
 };
 
